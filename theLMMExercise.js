@@ -7,8 +7,8 @@ let warmHugs = "Hi,I'm Olaf and I like warm hugs.";
 console.log(warmHugs.toUpperCase());
 
 // 1c
-warmHugs.replace("like", "love");
-console.log(warmHugs.replace("like", "love"));
+warmHugs = warmHugs.replace("like", "love");
+console.log(warmHugs);
 
 // 2a
 let beenImpaled = "Oh, look at that, I've been impaled.";
@@ -28,15 +28,15 @@ console.log(Math.PI);
 
 // 5
 let randomNumber = Math.random();
-randomNumber *= 3
-randomNumber = Math.floor(randomNumber)
-randomNumber += 1
+randomNumber *= 3;
+randomNumber = Math.floor(randomNumber);
+randomNumber += 1;
 console.log(randomNumber);
 
 // BONUS
 
 // 6
-let letItGo = "Let It Go!".repeat();
+console.log(" Let It Go!".repeat(2).trim().toUpperCase());
 
 // 7a
 let reindeers = "Reindeers are better than people.";
@@ -48,8 +48,18 @@ console.log(reindeers.replace(/ /g, "_"));
 console.log(Math.SQRT2);
 
 // 9
-let newRandomNumber = Math.random();
-newRandomNumber *= 7
-newRandomNumber = Math.floor(newRandomNumber)
-newRandomNumber += 10
-console.log(newRandomNumber);
+// Completed on seperate lines
+// let newRandomNumber = Math.random();
+// newRandomNumber *= 17;
+// newRandomNumber = Math.floor(newRandomNumber);
+// newRandomNumber += 7;
+// console.log(newRandomNumber);
+
+// Extra Bonus: Completed on a single line
+let randomNumber = Math.floor(17 * Math.random()) + 7;
+// let randomNumber = Math.floor(random number from 0 up to 17) +7;
+// let randomNumber = random whole number from 0 to 16 +7;
+// let randomNumber = random whole number 7 to 23;
+
+let randomNumber = Math.floor
+console.log(randomNumber);
